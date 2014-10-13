@@ -18,7 +18,7 @@ class particle{
     
     public: // anything under this heading is accessible to other classes (normally functions go here)
     
-    particle(ofVec2f t_pos, float t_speed); //the constructor
+    particle(); //the constructor
     virtual ~particle(); //the destructor
     
     void update();
@@ -33,10 +33,6 @@ class particle{
 
     ofVec2f direction;
     float speed;
-
-    
-    protected: //anything here can be accessed by classes which inherit particle
-    
     float size;
     ofColor col;
     ofVec2f position; //2D coordinate class with lots of useful methods

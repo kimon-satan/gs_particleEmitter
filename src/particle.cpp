@@ -9,15 +9,14 @@
 #include "particle.h"
 
 
-particle::particle(ofVec2f t_pos, float t_speed){
+particle::particle(){
 
     //the constructor
-    position.set(t_pos);
+    position.set(0,0);
     direction.set(0, ofRandom(0,1)); // make a vector pointing downwards
     direction.rotate(ofRandom(0,360)); // roatate it by a random amount
     size = 25;
-    speed = t_speed;
-    
+    speed = ofRandom(10,20);
     col.setHsb(ofRandom(0,255), 255, 255); //set using HSB for fully saturated bright colours
     
 }

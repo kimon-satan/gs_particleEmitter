@@ -26,9 +26,5 @@ class ofApp : public ofBaseApp{
     vector<particle> m_particles; // vector is a dynamic array. It comes from the standard library
 
     
-    //some other member variables
-    int m_minParticleSize;
-    int m_addAmount;
-    bool m_isMouseDown;
     
 };
