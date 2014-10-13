@@ -30,13 +30,8 @@ class particle{
     
     private: //anything under this heading is only accessible to the same instance
     
-
     ofVec2f direction;
     float speed;
-
-    
-    protected: //anything here can be accessed by classes which inherit particle
-    
     float size;
     ofColor col;
     ofVec2f position; //2D coordinate class with lots of useful methods
