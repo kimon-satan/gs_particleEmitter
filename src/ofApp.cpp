@@ -1,10 +1,6 @@
 #include "ofApp.h"
 
-//TASK - make a second vector of square particles
-
-//Other ideas ...
-//add rotation to the square particles
-//use ofNoise to add some random movement to the normal particles
+//TASK - add a new class square particle which inherits particle and overloads the draw method
 
 const int g_maxNumParticles = 1000; //a global constant variable
 
@@ -40,6 +36,8 @@ void ofApp::update(){
         }
   
     }
+    
+    //making new particles
     
     if(m_isMouseDown){
         

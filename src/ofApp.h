@@ -1,9 +1,8 @@
 #pragma once //this line of code prevents the header file from being included twice by the pre-processor
 
 #include "ofMain.h"
-#include "squareParticle.h" //include our particle class
+#include "particle.h" //include our particle class
 
-//NB. we don't need to include particle here anymore as it has already been included by square particle
 
 class ofApp : public ofBaseApp{
     
